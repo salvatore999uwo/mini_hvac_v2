@@ -11,3 +11,6 @@ The thermal transfer area is shown by the heatsinks and fans on the picture belo
 
 One schematic page i've been working on:
 ![Schematic](sample_pic.jpg)
+
+Current PCB Design:
+![New PCB Picture](pcb_one.jpg)
