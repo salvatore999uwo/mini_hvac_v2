@@ -8,9 +8,14 @@ The electronic boards are simply the PCB and the power supply for the project. T
 The thermal transfer area is shown by the heatsinks and fans on the picture below. This area is composed of the TEC module, which creates a large temperature difference, and the heatsinks and fans that allow the TEC module to move thermal energy out of or into the room.
 ![New Mechanical Layout](v2_mechanical_pic.jpg)
 
+Current PCB 3D Model:
+![3D View](new_pcb_3d.jpg)
+
 
 One schematic page i've been working on:
 ![Schematic](sample_pic.jpg)
 
 Current PCB Design:
 ![New PCB Picture](pcb_one.jpg)
+
+
