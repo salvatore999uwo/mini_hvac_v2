@@ -16,6 +16,6 @@ One schematic page i've been working on:
 ![Schematic](sample_pic.jpg)
 
 Current PCB Design:
-![New PCB Picture](pcb_one.jpg)
+![New PCB Picture](new_pcb_layout.jpg)
 
 
