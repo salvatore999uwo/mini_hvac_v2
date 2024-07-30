@@ -1,0 +1,27 @@
+initialize:
+    set desired_temperature to target value
+    set temperature_tolerance to acceptable range
+    initialize temperature_sensor
+    initialize peltier_module
+    initialize fan
+    initialize control_loop_delay to time interval
+
+main loop:
+    while true:
+        read current_temperature from temperature_sensor
+
+        if current_temperature > desired_temperature + temperature_tolerance:
+            activate peltier_module to cool
+            activate fan to high speed
+
+        else if current_temperature < desired_temperature - temperature_tolerance:
+            activate peltier_module to heat
+            activate fan to low speed
+
+        else:
+            deactivate peltier_module
+            set fan to moderate speed
+
+        delay control_loop_delay
+
+end loop
